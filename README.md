@@ -2,8 +2,8 @@
 <h1>Cards Challenge</h1>
 
 <img
-  height="120"
-  width="120"
+  height="160"
+  width="160"
   alt="joker"
   src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/google/274/joker_1f0cf.png"
 />
@@ -15,11 +15,52 @@
 <hr />
 
 ### Table of Contents
-**[Summary](#summary)**<br>
 **[Installation](#setup)**<br>
+**[Summary](#summary)**<br>
 **[What libraries are used?](#libraries)**<br>
 **[How does it look?](#responsive-ui)**<br>
 **[Scripts](#scripts)**<br>
+
+## Setup
+
+To execute the project you will need open two terminals and run the following commands:
+
+Clone the repository
+```
+git clone https://github.com/guilean/cards.git
+```
+Change to cards path
+```
+cd cards
+```
+Install node dependencies
+```
+yarn install
+```
+
+### Server
+
+Change to server path `cd server`
+```
+cd server
+```
+Install server dependencies
+```
+yarn install
+```
+Run server
+```
+yarn start
+```
+
+### Client
+
+Run start script to launch the client locally
+```
+yarn start
+```
+
+Once the above commands are executed, you will be able to interact with the application. The server runs on port 4000 and the client on 3000.
 
 ## Summary
 
@@ -48,47 +89,6 @@ User should be able to search cards by name.
 User should be able to navigate across different pages.
 
 <img src="https://i.gyazo.com/79e0854cfac5f67cbf454b9e601aa4bb.gif" width="680"/>
-
-## Setup
-
-To execute the project you will need to run following commands:
-
-1. Clone the repository
-```
-git clone https://github.com/guilean/cards.git
-```
-2. Change to cards path
-```
-cd cards
-```
-3. Install node dependencies
-```
-yarn install
-```
-
-### Server
-
-1. Change to server path `cd server`
-```
-cd server
-```
-2. Install server dependencies
-```
-yarn install
-```
-3. Run server
-```
-yarn start
-```
-
-### Client
-
-1. Run start script to launch the application in local
-```
-yarn start
-```
-
-Once the above commands are executed, you will be able to interact with the application.
 
 ## Libraries
 
