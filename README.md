@@ -1,9 +1,22 @@
-# Streamloots Challenge
+<div align="center">
+<h1>Cards Challenge</h1>
 
-<p style="font-size:68px">
-&#128512; &#128516; &#128525; &#128151;
-</p>
+<img
+  height="120"
+  width="120"
+  alt="joker"
+  src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/google/274/joker_1f0cf.png"
+/>
 
+<p>Simple web application and web server that renders a list of cards.</p>
+
+</div>
+
+
+### Table of Contents
+**[Setup](#setup)**<br>
+
+## Setup
 
 Create a Single Page Application to display a list of cards, users should be able to perform following actions:
 - Delete
