@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "~api": ["./api/index"],
+      "~app": ["./app/index"],
+      "~components/*": ["./components/*"],
+      "~features/*": ["./features/*"],
+      "~hooks": ["./hooks/index"],
+      "~analytics": ["./analytics/index"],
+      "~test-utils": ["./test-utils"],
+      "~fixtures": ["./test/fixtures/index"]
+    }
+  }
+}
