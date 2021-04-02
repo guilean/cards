@@ -12,11 +12,16 @@
 
 </div>
 
+<hr />
 
 ### Table of Contents
-**[Setup](#setup)**<br>
+**[Summary](#summary)**<br>
+**[How to install it?](#setup)**<br>
+**[What libraries are used?](#libraries)**<br>
+**[How does it look?](#responsive-ui)**<br>
+**[Scripts](#scripts)**<br>
 
-## Setup
+## Summary
 
 Create a Single Page Application to display a list of cards, users should be able to perform following actions:
 - Delete
@@ -44,24 +49,44 @@ User should be able to navigate across different pages.
 
 <img src="https://i.gyazo.com/79e0854cfac5f67cbf454b9e601aa4bb.gif" width="680"/>
 
-## Setup & Run
+## Setup
 
 To execute the project you will need to run following commands:
 
 1. Clone the repository
-`git clone https://github.com/guilean/cards.git`
-2. Change to cards path `cd cards`
-3. Install node dependencies `yarn install`
+```
+git clone https://github.com/guilean/cards.git
+```
+2. Change to cards path
+```
+cd cards
+```
+3. Install node dependencies
+```
+yarn install
+```
 
 ### Server
 
 1. Change to server path `cd server`
-2. Install server dependencies `yarn install`
-3. Run server `yarn start` (runs on port 4000)
+```
+cd server
+```
+2. Install server dependencies
+```
+yarn install
+```
+3. Run server
+```
+yarn start
+```
 
 ### Client
 
-1. Run start script to launch the application in local `yarn start`
+1. Run start script to launch the application in local
+```
+yarn start
+```
 
 Once the above commands are executed, you will be able to interact with the application.
 
