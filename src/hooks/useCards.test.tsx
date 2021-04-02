@@ -63,10 +63,6 @@ describe('useCards', () => {
     renderHook(() => useCards());
     expect(mockSelectCardsFiltered).toHaveBeenCalled();
   });
-  it('should use card status selector', () => {
-    renderHook(() => useCards());
-    expect(mockSelectCardsStatus).toHaveBeenCalled();
-  });
   it('should send events when cards change', () => {
     renderHook(() => useCards());
     expect(mockSendEvent).toHaveBeenCalled();
@@ -74,12 +70,13 @@ describe('useCards', () => {
       numOfCards: 0,
     });
   });
-  it('should fetch cards when status is idle', () => {
+  it('should fetch cards when cards are empty', () => {
+    mockSelectCards.mockReturnValue([]);
     renderHook(() => useCards());
     expect(mockFetchCards).toBeCalledTimes(1);
   });
-  it('should not fetch cards when status is different of idle', () => {
-    mockSelectCardsStatus.mockReturnValue(Status.SUCCEEDED);
+  it('should not fetch cards when cards are fullfilled', () => {
+    mockSelectCards.mockReturnValue([cardFixture]);
     renderHook(() => useCards());
     expect(mockFetchCards).toBeCalledTimes(0);
   });
