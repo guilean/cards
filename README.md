@@ -8,7 +8,7 @@
   src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/google/274/joker_1f0cf.png"
 />
 
-<p>Simple web application and web server that renders a list of cards.</p>
+<p>Single Page Application that allows users to interact with a playground of cards.</p>
 
 </div>
 
@@ -16,7 +16,7 @@
 
 ### Table of Contents
 **[Summary](#summary)**<br>
-**[How to install it?](#setup)**<br>
+**[Installation](#setup)**<br>
 **[What libraries are used?](#libraries)**<br>
 **[How does it look?](#responsive-ui)**<br>
 **[Scripts](#scripts)**<br>
