@@ -48,16 +48,12 @@ Install server dependencies
 ```
 yarn install
 ```
-Run server
-```
-yarn start
-```
 
-### Client
+### Execution
 
-Run start script to launch the client locally
+Run dev script to run concurrently server and client locally
 ```
-yarn start
+yarn dev
 ```
 
 Once the above commands are executed, you will be able to interact with the application. The server runs on port 4000 and the client on 3000.
