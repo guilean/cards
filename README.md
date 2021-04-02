@@ -1,5 +1,10 @@
 # Streamloots Challenge
 
+<p style="font-size:68px">
+&#128512; &#128516; &#128525; &#128151;
+</p>
+
+
 Create a Single Page Application to display a list of cards, users should be able to perform following actions:
 - Delete
 - Edit
