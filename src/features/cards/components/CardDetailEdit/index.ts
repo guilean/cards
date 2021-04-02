@@ -1,0 +1,1 @@
+export { CardDetailEdit } from './CardDetailEdit';
