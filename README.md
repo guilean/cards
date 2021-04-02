@@ -1,21 +1,29 @@
-## Streamloots Challenge
+# Streamloots Challenge
 
 Create a Single Page Application to display a list of cards, users should be able to perform following actions:
+- Delete
+- Edit
+- Search
+- Navigate
 
 ### Delete
-User should be able to remove a card from the list
+User should be able to remove a card from the list.
+
 <img src="https://i.gyazo.com/9afd4ce8ff8c24607c0ca0f02fdf302e.gif" width="680"/>
 
 ### Edit
 User should be able to edit a card in a different page. Image and name are required.
+
 <img src="https://i.gyazo.com/be27f30b86ae5b9b40f0f83cc0c7fe5d.gif" width="680"/>
 
 ### Search
-User should be able to search cards by name
+User should be able to search cards by name.
+
 <img src="https://i.gyazo.com/73d3766383155e26aeef7bbbb7607fe8.gif" width="680"/>
 
 ### Navigate
-User should be able to navigate across different pages
+User should be able to navigate across different pages.
+
 <img src="https://i.gyazo.com/79e0854cfac5f67cbf454b9e601aa4bb.gif" width="680"/>
 
 ## Setup & Run
