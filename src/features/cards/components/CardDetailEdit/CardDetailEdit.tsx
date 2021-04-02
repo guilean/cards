@@ -56,7 +56,7 @@ export const CardDetailEdit = (card: Card) => {
       <Button
         metadata={{ eventName: SAVE_CHANGES_CARD_DETAIL }}
         type='submit'
-        className='mt-4 text-3xl focus:outline-none hover:text-green-500 font-bold self-center md:self-end text-white'
+        className='mt-4 text-3xl hover:text-green-500 font-bold self-center md:self-end text-white'
       >
         Update
       </Button>

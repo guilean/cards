@@ -22,11 +22,11 @@ export const CardDetail = () => {
     <div className='max-w-screen-lg m-auto h-full' data-testid='card-detail'>
       <Button
         data-testid='navigate-back-btn'
-        className='focus:outline-none'
+        className='hover:text-blue-700 text-blue-500'
         metadata={{ eventName: GO_BACK_CARD_DETAIL }}
         onClick={() => history.push(ROUTE_CARDS)}
       >
-        <ArrowLeftIcon className='h-8 w-8 text-blue-500' />
+        <ArrowLeftIcon className='h-8 w-8' />
       </Button>
       {card ? (
         <div className='flex flex-col md:flex-row justify-center mt-2 gap-2 items-center md:items-start py-2'>

@@ -20,13 +20,13 @@ export const CardItem = memo((card: CardProps) => {
 
   return (
     <li
-      className='w-full relative border-2 border-transparent hover:border-blue-500 transition duration-200 ease-in-out rounded-lg'
+      className='w-full relative border-2 border-transparent hover:border-green-500 transition duration-200 ease-in-out rounded-lg'
       key={card._id}
     >
       <Button
         data-testid='show-detail-btn'
         metadata={{ eventName: SHOW_CARD_DETAIL }}
-        className='flex self-center focus:outline-none w-full'
+        className='flex self-center w-full'
         onClick={() => history.push(ROUTE_CARD_DETAIL.replace(':id', card._id))}
       >
         <Card
@@ -41,7 +41,7 @@ export const CardItem = memo((card: CardProps) => {
           data-testid='delete-card-btn'
           metadata={{ eventName: REMOVE_CARD }}
           onClick={onClickDelete}
-          className='absolute top-1 right-1 bg-gray-800 rounded p-1 outline-none focus:outline-none hover:bg-red-700 transition duration-200 ease-in-out'
+          className='absolute top-1 right-1 bg-gray-800 rounded p-1 outline-none hover:bg-red-700'
         >
           <TrashIcon className='h-5 w-5 md:h-5 md:w-5 text-gray-300 hover:text-white' />
         </Button>

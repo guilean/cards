@@ -1,3 +1,4 @@
+import classNames from 'classnames';
 import React from 'react';
 import { useAnalytics } from '~analytics';
 import { Props } from './Button.types';
@@ -17,7 +18,15 @@ export const Button = ({
     onClick && onClick();
   };
   return (
-    <button className={className} onClick={onClickButton} type={type} {...rest}>
+    <button
+      className={classNames(
+        className,
+        'transition duration-200 ease-in-out focus:outline-none',
+      )}
+      onClick={onClickButton}
+      type={type}
+      {...rest}
+    >
       {children}
     </button>
   );

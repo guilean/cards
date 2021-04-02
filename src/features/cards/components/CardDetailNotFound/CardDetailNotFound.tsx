@@ -16,7 +16,7 @@ export const CardDetailNotFound = () => {
       </p>
       <Button
         data-testid='check-btn'
-        className='text-3xl focus:outline-none hover:text-blue-500 font-bold'
+        className='text-3xl hover:text-blue-500 font-bold'
         metadata={{ eventName: NOT_EXIST_CARD_DETAIL }}
         onClick={() => history.push(ROUTE_CARDS)}
       >
